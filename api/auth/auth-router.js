@@ -28,7 +28,11 @@ const {
     "message": "Password must be longer than 3 chars"
   }
  */
-router.post('/register', checkPasswordLength, checkUsernameFree, (req, res, next) => {
+router.post(
+  '/register', 
+checkPasswordLength, 
+checkUsernameFree, 
+(req, res, next) => {
   res.json('register')
 })
 
