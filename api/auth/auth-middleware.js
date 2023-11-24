@@ -84,3 +84,4 @@ module.exports = {
   checkUsernameExists,
   checkPasswordLength,
 }
+//for testing
